@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function GradientGenerator() {
     const [gradientType, setGradientType] = useState('linear');
